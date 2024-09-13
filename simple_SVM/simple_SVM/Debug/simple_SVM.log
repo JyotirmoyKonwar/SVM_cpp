@@ -1,0 +1,71 @@
+﻿Build started 05-06-2024 11:23:37.
+     1>Project "E:\projects\CPP\simple_SVM\simple_SVM\simple_SVM.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\simple_SVM.unsuccessfulbuild".
+       ClCompile:
+         D:\programs\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(39): error C2552: 'v0' : non-aggregates cannot be initialized with initializer list
+                 'std::vector<_Ty>' : Types with a base are not aggregate
+                 with
+                 [
+                     _Ty=double
+                 ]
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(40): error C2552: 'k0' : non-aggregates cannot be initialized with initializer list
+                 'std::vector<_Ty>' : Types with a base are not aggregate
+                 with
+                 [
+                     _Ty=double
+                 ]
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(41): error C2552: 'u' : non-aggregates cannot be initialized with initializer list
+                 'std::vector<_Ty>' : Types with a base are not aggregate
+                 with
+                 [
+                     _Ty=double
+                 ]
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(56): error C2143: syntax error : missing ',' before ':'
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(56): error C2143: syntax error : missing ';' before '{'
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(96): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const std::string' (or there is no acceptable conversion)
+                 could be 'built-in C++ operator==(const char [7], const char [7])'
+                 d:\programs\microsoft visual studio 10.0\vc\include\exception(470): or       'bool std::operator ==(const std::_Exception_ptr &,const std::_Exception_ptr &)'
+                 d:\programs\microsoft visual studio 10.0\vc\include\exception(475): or       'bool std::operator ==(std::_Null_type,const std::_Exception_ptr &)'
+                 d:\programs\microsoft visual studio 10.0\vc\include\exception(481): or       'bool std::operator ==(const std::_Exception_ptr &,std::_Null_type)'
+                 d:\programs\microsoft visual studio 10.0\vc\include\system_error(408): or       'bool std::operator ==(const std::error_code &,const std::error_condition &)'
+                 d:\programs\microsoft visual studio 10.0\vc\include\system_error(416): or       'bool std::operator ==(const std::error_condition &,const std::error_code &)'
+                 while trying to match the argument list '(const std::string, const char [7])'
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(100): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const std::string' (or there is no acceptable conversion)
+                 could be 'built-in C++ operator==(const char [5], const char [5])'
+                 d:\programs\microsoft visual studio 10.0\vc\include\exception(470): or       'bool std::operator ==(const std::_Exception_ptr &,const std::_Exception_ptr &)'
+                 d:\programs\microsoft visual studio 10.0\vc\include\exception(475): or       'bool std::operator ==(std::_Null_type,const std::_Exception_ptr &)'
+                 d:\programs\microsoft visual studio 10.0\vc\include\exception(481): or       'bool std::operator ==(const std::_Exception_ptr &,std::_Null_type)'
+                 d:\programs\microsoft visual studio 10.0\vc\include\system_error(408): or       'bool std::operator ==(const std::error_code &,const std::error_condition &)'
+                 d:\programs\microsoft visual studio 10.0\vc\include\system_error(416): or       'bool std::operator ==(const std::error_condition &,const std::error_code &)'
+                 while trying to match the argument list '(const std::string, const char [5])'
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(104): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const std::string' (or there is no acceptable conversion)
+                 could be 'built-in C++ operator==(const char [4], const char [4])'
+                 d:\programs\microsoft visual studio 10.0\vc\include\exception(470): or       'bool std::operator ==(const std::_Exception_ptr &,const std::_Exception_ptr &)'
+                 d:\programs\microsoft visual studio 10.0\vc\include\exception(475): or       'bool std::operator ==(std::_Null_type,const std::_Exception_ptr &)'
+                 d:\programs\microsoft visual studio 10.0\vc\include\exception(481): or       'bool std::operator ==(const std::_Exception_ptr &,std::_Null_type)'
+                 d:\programs\microsoft visual studio 10.0\vc\include\system_error(408): or       'bool std::operator ==(const std::error_code &,const std::error_condition &)'
+                 d:\programs\microsoft visual studio 10.0\vc\include\system_error(416): or       'bool std::operator ==(const std::error_condition &,const std::error_code &)'
+                 while trying to match the argument list '(const std::string, const char [4])'
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(146): error C2143: syntax error : missing ')' before '{'
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(146): error C2660: 'SVM::clipVector' : function does not take 0 arguments
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(146): error C2143: syntax error : missing ';' before '{'
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(146): error C2143: syntax error : missing ';' before '}'
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(146): error C2143: syntax error : missing ';' before ','
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(146): error C2059: syntax error : ')'
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(192): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(195): error C2552: 'X' : non-aggregates cannot be initialized with initializer list
+                 'std::vector<_Ty>' : Types with a base are not aggregate
+                 with
+                 [
+                     _Ty=std::vector<double>
+                 ]
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(196): error C2078: too many initializers
+     1>e:\projects\cpp\simple_svm\simple_svm\main.cpp(197): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "E:\projects\CPP\simple_SVM\simple_SVM\simple_SVM.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.95

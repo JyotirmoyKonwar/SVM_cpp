@@ -1,0 +1,22 @@
+﻿Build started 05-07-2024 20:44:05.
+     1>Project "E:\projects\CPP\multiSVM\multiSVM\multiSVM.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\multiSVM.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\programs\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\projects\cpp\multisvm\multisvm\main.cpp(114): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\programs\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projects\CPP\multiSVM\Debug\multiSVM.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\multiSVM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\projects\CPP\multiSVM\Debug\multiSVM.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projects\CPP\multiSVM\Debug\multiSVM.lib" /MACHINE:X86 Debug\main.obj
+         LINK : E:\projects\CPP\multiSVM\Debug\multiSVM.exe not found or not built by the last incremental link; performing full link
+         multiSVM.vcxproj -> E:\projects\CPP\multiSVM\Debug\multiSVM.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\projects\CPP\multiSVM\Debug\multiSVM.exe;#1" /manifest Debug\multiSVM.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\multiSVM.unsuccessfulbuild".
+         Touching "Debug\multiSVM.lastbuildstate".
+     1>Done Building Project "E:\projects\CPP\multiSVM\multiSVM\multiSVM.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.00

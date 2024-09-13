@@ -1,0 +1,55 @@
+﻿Build started 04-07-2024 23:28:02.
+     1>Project "E:\projects\CPP\Please\Please\Please.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Please.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         D:\programs\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Please.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PleaseDlg.cpp
+         PleaseDlg.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\programs\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projects\CPP\Please\Debug\Please.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Please.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\projects\CPP\Please\Debug\Please.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projects\CPP\Please\Debug\Please.lib" /MACHINE:X86 Debug\Please.res
+         Debug\Please.exe.embed.manifest.res
+         Debug\ChartAxis.obj
+         Debug\ChartAxisLabel.obj
+         Debug\ChartBarSerie.obj
+         Debug\ChartCandlestickSerie.obj
+         Debug\ChartCrossHairCursor.obj
+         Debug\ChartCtrl.obj
+         Debug\ChartCursor.obj
+         Debug\ChartDateTimeAxis.obj
+         Debug\ChartDragLineCursor.obj
+         Debug\ChartFont.obj
+         Debug\ChartGanttSerie.obj
+         Debug\ChartGradient.obj
+         Debug\ChartGrid.obj
+         Debug\ChartLegend.obj
+         Debug\ChartLineSerie.obj
+         Debug\ChartLogarithmicAxis.obj
+         Debug\ChartPointsSerie.obj
+         Debug\ChartScrollBar.obj
+         Debug\ChartSerie.obj
+         Debug\ChartStandardAxis.obj
+         Debug\ChartSurfaceSerie.obj
+         Debug\ChartTitle.obj
+         Debug\ChartXYSerie.obj
+         Debug\Please.obj
+         Debug\PleaseDlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Please.exe.embed.manifest" /manifest Debug\Please.exe.intermediate.manifest "D:\programs\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Please.vcxproj -> E:\projects\CPP\Please\Debug\Please.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Please.unsuccessfulbuild".
+         Touching "Debug\Please.lastbuildstate".
+     1>Done Building Project "E:\projects\CPP\Please\Please\Please.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.82
